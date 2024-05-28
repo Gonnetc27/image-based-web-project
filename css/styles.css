@@ -1,0 +1,30 @@
+*{
+    font-family: 'Open Sans', sans-serif; 
+    align-items: center;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.bird{
+    width: 40px;
+}
+
+.nom{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 90px;
+    font-weight: 600;
+    transform: scaleY(0.7);
+}
+
+.datos{
+    border-style:groove;
+    border-width: 1px 0 0 0;
+    justify-content: left ;
+}
